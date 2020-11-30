@@ -157,7 +157,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                                Navigator.pushNamed(context, "/hastaGoruntule");
+                                //   Navigator.pushNamed(context, "/hastaGoruntule"); // Burası görüntüleme modülü tamamlanınca açılacak.
                               },
                               child: Container(
                                 height: 150,
