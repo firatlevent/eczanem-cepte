@@ -94,7 +94,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                               // Navigator.pushNamed(context, "/ilacSatis"); // Burası satış modülü tamamlanınca açılacak.
+                                Navigator.pushNamed(context, "/ilacSatis");
                               },
                               child: Container(
                                 height: 150,
@@ -157,7 +157,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                             //   Navigator.pushNamed(context, "/hastaGoruntule"); // Burası görüntüleme modülü tamamlanınca açılacak.
+                                Navigator.pushNamed(context, "/hastaGoruntule");
                               },
                               child: Container(
                                 height: 150,
@@ -186,7 +186,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                              //  Navigator.pushNamed( //
+                                //  Navigator.pushNamed( //
                                 //    context, "/personelGoruntule"); // Burası görüntüleme modülü tamamlanınca açılacak.
                               },
                               child: Container(
@@ -221,7 +221,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                               Navigator.pushNamed(context, "/hastaKayit");
+                                Navigator.pushNamed(context, "/hastaKayit");
                               },
                               child: Container(
                                 height: 150,
@@ -284,7 +284,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                            //    Navigator.pushNamed(context, "/stok"); // Burası görüntüleme modülü tamamlanınca açılacak.
+                                //    Navigator.pushNamed(context, "/stok"); // Burası görüntüleme modülü tamamlanınca açılacak.
                               },
                               child: Container(
                                 height: 150,
@@ -313,7 +313,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                            //    Navigator.pushNamed(context, "/stokEkle"); // Burası stok modülü tamamlanınca açılacak.
+                                //    Navigator.pushNamed(context, "/stokEkle"); // Burası stok modülü tamamlanınca açılacak.
                               },
                               child: Container(
                                 height: 150,
@@ -347,7 +347,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                            //    Navigator.pushNamed(context, "/muhasebe"); // Burası nuhasebe modülü tamamlanınca açılacak.
+                                //    Navigator.pushNamed(context, "/muhasebe"); // Burası nuhasebe modülü tamamlanınca açılacak.
                               },
                               child: Container(
                                 height: 150,
