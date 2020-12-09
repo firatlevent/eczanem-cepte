@@ -5,6 +5,8 @@ import 'package:eczane/Pages/hastaKayit.dart';
 import 'package:eczane/Pages/personelKayit.dart';
 import 'package:eczane/Pages/ilacKayit.dart';
 import 'package:eczane/Pages/ilacSatis.dart';
+import 'package:eczane/Pages/hastaGoruntule.dart';
+import 'package:eczane/Pages/personelGoruntule.dart';
 
 import '../main.dart';
 
@@ -26,6 +28,10 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => IlacKayit());
       case '/ilacSatis':
         return MaterialPageRoute(builder: (_) => IlacSatis());
+      case '/hastaGoruntule':
+        return MaterialPageRoute(builder: (_) => HastaGoruntule());
+      case '/personelGoruntule':
+        return MaterialPageRoute(builder: (_) => PersonelGoruntule());
       default:
         return _errorRoute();
     }
