@@ -284,7 +284,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                                //    Navigator.pushNamed(context, "/stok"); // Burası stok modülü tamamlanınca açılacak.
+                                Navigator.pushNamed(context, "/stok");
                               },
                               child: Container(
                                 height: 150,
@@ -313,7 +313,7 @@ class _AnasayfaState extends State<Anasayfa> {
                             child: InkWell(
                               splashColor: Colors.white,
                               onTap: () {
-                                //    Navigator.pushNamed(context, "/stokEkle"); // Burası stok modülü tamamlanınca açılacak.
+                                Navigator.pushNamed(context, "/stokEkle");
                               },
                               child: Container(
                                 height: 150,
