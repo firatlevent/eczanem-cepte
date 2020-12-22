@@ -9,6 +9,7 @@ import 'package:eczane/Pages/hastaGoruntule.dart';
 import 'package:eczane/Pages/personelGoruntule.dart';
 import 'package:eczane/Pages/stok.dart';
 import 'package:eczane/Pages/stokEkle.dart';
+import 'package:eczane/Pages/muhasebe.dart';
 
 import '../main.dart';
 
@@ -38,6 +39,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => Stok());
       case '/stokEkle':
         return MaterialPageRoute(builder: (_) => StokEkle());
+      case '/muhasebe':
+        return MaterialPageRoute(builder: (_) => Muhasebe());
       default:
         return _errorRoute();
     }
