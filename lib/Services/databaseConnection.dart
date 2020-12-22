@@ -17,7 +17,7 @@ class Services {
 
   static const _HASTA_EKLE_ACTION = 'HASTA_EKLE';
   static const _PERSONEL_EKLE_ACTION = 'PERSONEL_EKLE';
-  static const _ILAC_KAYIT_ACTION = 'ILAC_KAYIT';
+  static const _ILAC_KAYIT_ACTION = 'ILAC_KAYIT_EKLE';
   static const _MUHASEBE_ILAC_SATIS_ACTION = 'MUHASEBE_ILAC_SATIS';
 
   static const _STOK_EKLE_ACTION = 'STOK_EKLE';

@@ -137,7 +137,6 @@ class _MuhasebeState extends State<Muhasebe> {
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
                               )),
-                          //SizedBox(width:10)
                           FittedBox(
                             fit: BoxFit.scaleDown,
                             child: Text(
